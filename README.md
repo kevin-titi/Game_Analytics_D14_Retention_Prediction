@@ -12,7 +12,9 @@ The data was divided into training data for the model to learn and validation/te
 
 As demonstrated in the plot, the longer we wait for players to play and collect data, the better the model can predict whether a player would quit the game. However, we noticed that most players would quit right after playing the game, resulting in a continued loss of the player base as we waited for data. Moving forward, the optimal day for data collection needs to be evaluated, but for now, we used day 7 data as it offered the best-performing models.
 
-Gradient Boosting was chosen as our final model. Based on day 7 testing data, the model accurately predicted 65% of all retention within the top 6% of the total population. The model provided a similar performance to Random Forest but used simpler measures, making it easier to comprehend.
+Gradient Boosting was chosen as our final model. Based on day 7 testing data, the model effectively captured 65% of all retention within the top 6% of the total population, prioritizing those with the highest retention likelihood. The model provided a similar performance to Random Forest but used simpler measures, making it easier to comprehend.
+
+The final model 
 
  ![Slide8](https://github.com/kk-chaiyapuk/Game_Analytics_D14_Retention_Prediction/assets/82194433/1c2ee504-3c81-4809-9bac-f75d073dddd2)
 
