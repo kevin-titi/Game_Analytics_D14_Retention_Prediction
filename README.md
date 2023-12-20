@@ -28,8 +28,6 @@ We defined day 14 retention as true if players were still playing the game on da
 
 First, our models assigned a retention likelihood for every player in our data. Next, we ranked players based on the likelihood, from the most to the least likely to keep playing our game. Finally, we looked at the top 6 percentile to identify the likelihood cutoff (22.6%) and classified players who were more than 22.6% likely as retained.
 
-By not using a 50% cutoff, our models lost some accuracy as it would overly classify retained players. However, using data from day 0 to day 3, there were no players with more than a 50% likelihood of being retained (our data is imbalanced so the model simply put everyone below 50%). The cutoff needed to be changed for us to classify such a model, and this also improved our model performance based on the F1 score as it improved Recall (at the cost of less Precision).
-
 By not using a 50% cutoff, our models lost some accuracy, as it would overly classify retained players. However, using data from day 0 to day 3, no players had more than a 50% likelihood of being retained (our data is imbalanced, so the model simply placed everyone below 50%). The cutoff needed to be changed for us to classify such a model. This also improved our model performance, enhancing Recall at the cost of less Precision.
 
  ![Slide6](https://github.com/kk-chaiyapuk/Game_Analytics_D14_Retention_Prediction/assets/82194433/db34c730-7458-4db8-9996-5906a31d544f)
