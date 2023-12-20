@@ -1,6 +1,6 @@
 # Game Analytics: Day 14 Player Retention/Churn Prediction
 
-We utilized data from the first day to day 7 after game installation to determine whether a player would quit the game by day 14. This predictive classification model relies on measures such as user behavior, in-game metrics (e.g., win rate), and engagement patterns to identify players at risk of churning.
+We utilized data from the first day to day 7 after game installation to determine whether a player would stay in the game by day 14. This predictive classification model relies on measures such as user behavior, in-game metrics (e.g., win rate), and engagement patterns to identify players at risk of churning.
 
 ## Predicting which players will play our game by machine learning models
 
