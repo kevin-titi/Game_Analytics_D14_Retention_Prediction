@@ -1,5 +1,7 @@
 # Game Analytics: Day 14 Player Retention/Churn Prediction
 
+(There is no dataset provided. I only uploaded the code I used as well as the result. Please look at the attached PDF for a full presentation.)
+
 We analyzed data spanning the initial day to day 7 post-game installation to forecast a player's likelihood of remaining in the game by day 14. Our predictive classification model leverages factors like user behavior, in-game metrics (such as win rate), and engagement patterns to identify players with high potential for long-term retention.
 
 ## Predicting which players will play our game by machine learning models
