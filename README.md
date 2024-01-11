@@ -16,8 +16,6 @@ As demonstrated in the plot, the longer we wait for players to play and collect 
 
 Gradient Boosting was chosen as our final model. Based on day 7 testing data, the model effectively captured 65% of all retention within the top 6% of the total population, prioritizing those with the highest retention likelihood. The model provided a similar performance to Random Forest but used simpler measures, making it easier to comprehend.
 
-The final model 
-
  ![Slide8](https://github.com/kk-chaiyapuk/Game_Analytics_D14_Retention_Prediction/assets/82194433/1c2ee504-3c81-4809-9bac-f75d073dddd2)
 
  ![Slide16](https://github.com/kk-chaiyapuk/Game_Analytics_D14_Retention_Prediction/assets/82194433/2cd15a08-b35f-4122-9b69-79152d00069a)
